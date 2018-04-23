@@ -17,6 +17,26 @@
     <script src="letter.js"></script>
     <script src="letterView.js"></script>
     <script type="text/javascript">
+      const letters = [
+        {value: 'G', left: 100, top: Math.random() * 300 + 200},
+        {value: 'I', left: 150, top: Math.random() * 300 + 200},
+        {value: 'T', left: 200, top: Math.random() * 300 + 200},
+        {value: 'i', left: 350, top: Math.random() * 300 + 200},
+        {value: 's', left: 400, top: Math.random() * 300 + 200},
+        {value: 'S', left: 550, top: Math.random() * 300 + 200},
+        {value: 'U', left: 600, top: Math.random() * 300 + 200},
+        {value: 'P', left: 650, top: Math.random() * 300 + 200},
+        {value: 'E', left: 700, top: Math.random() * 300 + 200},
+        {value: 'R', left: 750, top: Math.random() * 300 + 200},
+        {value: 'C', left: 850, top: Math.random() * 300 + 200},
+        {value: 'O', left: 900, top: Math.random() * 300 + 200},
+        {value: 'O', left: 950, top: Math.random() * 300 + 200},
+        {value: 'L', left: 1000, top: Math.random() * 300 + 200},
+      ]
+      letters.forEach((letter) => {
+        const letterView = new LetterView(new Letter(letter.left, letter.top, 0, letter.value))
+        letterView.render()
+      })
     </script>
   </body>
 </html>
