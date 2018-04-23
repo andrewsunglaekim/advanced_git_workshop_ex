@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top, .bot {
+  align-items: center;
+  color: #ff9191;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.letter {
+  font-size: 3rem;
+  position: absolute;
+  color: #ff9191;
+}
