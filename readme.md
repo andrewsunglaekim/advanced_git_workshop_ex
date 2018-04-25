@@ -37,7 +37,7 @@ OH. NO. We lost some pretty crucial features when we did that last reset. We nee
 - Go back to before the reset on the same branch that you executed the reset on
 
 #### Directions
-1. Use `git reflog` to find the gitrevision(eg. `HEAD@{2}` or `master@{1}`) or commit sha that you need to get back to prior to the reset done earlier in the workshop.  
+1. Use `git reflog` to find the gitrevision or commit sha that you need to get back to prior to the reset done earlier in the workshop.  
 2. Once on that commit, checkout to a new branch(call it whatever you'd like)
 
 > At this point, you're browser should be red again. As if you had just cloned down the repo.
